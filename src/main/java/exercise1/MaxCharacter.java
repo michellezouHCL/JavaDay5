@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class MaxCharacter {
 
 	public static int maxCharacter(String s) {
+		s.trim();
 		int maxIndex = 0;
 		int count = 1;
 		int maxCount = -1;
