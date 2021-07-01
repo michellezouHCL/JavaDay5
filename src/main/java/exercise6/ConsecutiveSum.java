@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ConsecutiveSum {
 
 	public static int consecutiveSum(int n) {
-		return (int) (n * ((double) (n + 1) / 2));
+		return (n * (n + 1)) / 2;
 	}
 
 	public static void main(String[] args) {
